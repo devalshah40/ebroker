@@ -1,0 +1,195 @@
+<meta name="keywords" content="html,pdf,php,html2pdf,html2fpdf" />
+<meta name="author" content="Chris Shea" />
+<meta name="description" content="Test22 - Demo of Tables" />
+
+<!-- Using styles from a separate stylesheet doesn't seem to work, even when the full url is used
+<LINK href="C:\Development\EasyPHP2.0b1\www\#Published Modules\html2pdf\examples\style1.css" rel="stylesheet" type="text/css">
+-->
+
+
+<style type="text/css">
+
+CAPTION.MYTABLE
+  {
+     background-color:#8080ff;
+     color:white;
+     border-style:solid;
+     border-width:2px;
+     border-color: #000000;
+  }
+
+  TABLE.MYTABLE
+  {
+     font-family:arial;
+     font-size:10pt;
+     background-color:#808080;
+     width:500px;
+     border-style:solid;
+     border-color:#000000;
+     border-width:2px;
+  }
+
+  TH.MYTABLE
+  {
+     font-size:10pt;
+     color:#ff0000;
+  }
+
+
+  TR.MYTABLE
+  { 
+  }
+
+  TD.MYTABLE
+  {
+     font-size: 10pt;
+     background-color: #409040;
+     color: #0000ff;
+     border-style: solid;
+     border-width: 3px;
+     text-align: center;
+  }
+
+div.cs1 {
+	font-size: 20pt;
+	color: #0000ff;
+}
+
+div.cs2 {
+	font-size: 14pt;
+	color: #ff0000;
+     background-color: yellow;
+     font-weight: bold;
+     font-style: italic;
+}
+
+div.cs3 {
+	font-size: 12pt;
+	color: #00ff00;
+     background-color: gold;
+     font-weight: bold;
+ 	font-family: helvetica;
+}
+
+div.cs4 {
+	font-size: 6pt;
+	color: #000000;
+     background-color: #eeaaaa;
+     font-weight: normal;
+     font-style: oblique;
+ 	font-family: times;
+}
+
+div.cs5 {
+	font-size: 10pt;
+	color: #000000;
+     background-color: #eeaaaa;
+     font-weight: normal;
+     font-style: oblique;
+ 	font-family: verdana;
+}
+
+div.cs6 {
+	font-size: 10pt;
+	color: #000000;
+     background-color: #eeaaaa;
+     font-weight: normal;
+     font-style: oblique;
+ 	font-family: arial;
+}
+
+
+</style>
+
+
+
+<a name="Tables Using Styles "></a>
+
+<br> ---------- Start of the Table ----------------
+<br>This doesn't seem to get much/any style info from the stylesheet
+<br>It does take the border definition that is coded locally.
+
+<br><br>
+<TABLE border=1 CLASS="MYTABLE">
+
+   	<TR bgcolor=yellow CLASS="MYTABLE">
+        <TH CLASS="MYTABLE">Column One</TH>
+        <TH CLASS="MYTABLE">Column Two</TH>
+        <TH CLASS="MYTABLE">Column Three</TH>
+	</TR>
+
+
+      <TR CLASS="MYTABLE">
+        <TD CLASS="cs3">Row 1, Column 1</TD>
+        <TD CLASS="MYTABLE">Row 1, Column 3</TD>
+        <TD CLASS="MYTABLE">Row 1, Column 3</TD>
+      </TR>
+   
+      <TR CLASS="MYTABLE">  
+        <TD CLASS="MYTABLE">Row 2, Column 1</TD>
+        <TD CLASS="MYTABLE">Row 2, Column 3</TD>
+        <TD CLASS="MYTABLE">Row 2, Column 3</TD>
+      </TR>
+   
+      <TR CLASS="MYTABLE">  
+        <TD CLASS="MYTABLE">Row 1, Column 3</TD>
+        <TD CLASS="MYTABLE">Row 3, Column 3</TD>
+        <TD CLASS="MYTABLE">Row 3, Column 3</TD>
+      </TR>
+
+</TABLE>
+
+
+
+<br>------------------- End of Table ---------------------
+
+
+<br><br><div class=cs1>
+Here is a test line using a class definition </div>
+
+<br><div class=cs2>
+Here is a second line using a different class
+</div>
+
+<br><div class=cs3>
+Here is a third line using a different class  (cs3)
+</div>
+
+<br><div class=cs4>
+Here is a fourth line using a different class  (cs4)
+</div>
+
+<br><div class=cs6>
+Here is a fourth line using a different class and Verdana  (cs5)
+</div>
+
+<br><div class=cs6>
+Here is a fourth line using a different class and Arial  (cs6)
+</div>
+
+
+<br><font face=serif color=red size=5>Here is the test line specify a font face </font>
+
+
+<br><div class=cs1>
+And now back to cs1
+</div>
+
+<newpage>
+<a name="Tables - colors and font sizes? "></a>
+
+<div class=cs4>A table with different color backgrounds</div>
+
+<table bgcolor=#eeeeee>
+<tr bgcolor=yellow><th><font face=helvetica>col1 <th>col2 <th>col3 <th>col4 </tr>
+<tr><td></b>aaaaa <td>bbbbbb <td>cccccc <td>ddddd </tr>
+<tr bgcolor=white><td>aaaaa <td>bbbbbb <td>cccccc <td>ddddd </tr>
+<tr><td>aaaaa <td>bbbbbb <td>cccccc <td>ddddd </tr>
+</table>
+
+
+
+
+
+
+

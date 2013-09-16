@@ -1,0 +1,61 @@
+/* General Style */
+
+body {
+margin:0;
+padding:0;background-color:#FFFFFF;
+
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size:11px
+}
+h1 { font-size: 18px; color:#00356E }
+h2 { font-size: 16px }
+p { font-size: 1em }
+a { color:#0074FF; text-decoration:none }
+a:hover { color:#0074FF; text-decoration:underline }
+a:visited { color:#0074FF; text-decoration:none }
+a:visited:hover { color:#0074FF; text-decoration:underline }
+
+#footer-links a { margin:0 8px; }
+#footer a, #footer a:visited {
+color:#FFF;
+text-decoration:none
+}
+#footer a:hover, #footer a:visited:hover {
+color:#FFF;
+text-decoration:underline
+}
+
+
+.clr { clear: both; overflow:hidden; height:0; }
+.align-right { text-align:right; }
+.wide100 { width:100%; }
+.wide80 { width:80%; }
+.wide75 { width:75%; }
+.wide70 { width:70%; }
+.wide65 { width:65%; }
+.wide60 { width:60%; }
+.default-height { height:450px }
+
+a.fake-link, a.fake-link:hover { cursor:default; text-decoration:none; }
+
+#system-message { background-color: #E7E7E7; border-top: 3px solid #CCCCCC; border-bottom: 3px solid #CCCCCC; margin-bottom: 10px; padding: 0;}
+#system-message .info { background: #E7E7E7 url(../images/notice-info.png) 10px center no-repeat; padding: 10px;}
+#system-message .alert { background: #E7E7E7 url(../images/notice-alert.png) 10px center no-repeat; padding: 10px;}
+#system-message .message { color: #004080; font-weight: bold; text-indent: 36px; }
+
+/*Grid*/
+.ico-action { margin-right:5px }
+
+/* Lightbox - Overide Style */
+
+
+table.record-listing { width:100%; border-collapse:collapse; margin:14px auto 10px auto; border-bottom:#999 1px solid; }
+table.record-listing th { background-color:#ccc; padding:4px; text-align:left; }
+table.record-listing td { padding:2px 4px; text-align:left; }
+table.record-listing td.numeric, table.record-listing th.numeric { text-align:right; }
+table.record-listing tfoot { border-top:#999 1px solid; }
+
+/* Superfish Menu Overwrides */
+.sf-navbar li {	padding: 0px 2px; }
+}

@@ -1,0 +1,87 @@
+<style type="text/css">
+
+CAPTION.MYTABLE
+  {
+     background-color:#8080ff;
+     color:white;
+     border-style:solid;
+     border-width:2px;
+     border-color: #000000;
+  }
+
+  TABLE.MYTABLE
+  { 
+     font-family:arial;
+     font-size:10pt;
+     background-color:#808080;
+     width:500px;
+     border-style:solid;
+     border-color:#000000;
+     border-width:2px;
+  }
+
+  TH.MYTABLE
+  {
+     font-size:10pt;
+     color:#ff0000;
+  }
+
+
+  TR.MYTABLE
+  { 
+  }
+
+  TD.MYTABLE
+  {
+     font-size: 10pt;
+     background-color: #409040;
+     color: #0000ff;
+     border-style: solid;
+     border-width: 3px;
+     text-align: center;
+  }
+  
+div.cs2 {
+	font-size: 14pt;
+	color: #ff0000;
+     background-color: yellow;
+     font-weight: bold;
+     font-style: italic;
+}
+
+div.cs3 {
+	font-size: 12pt;
+	color: #00ff00;
+     background-color: gold;
+     font-weight: bold;
+ 	font-family: helvetica;
+}
+
+div.cs4 {
+	font-size: 6pt;
+	color: #000000;
+     background-color: #eeaaaa;
+     font-weight: normal;
+     font-style: oblique;
+ 	font-family: times;
+}
+
+div.cs5 {
+	font-size: 10pt;
+	color: #000000;
+     background-color: #eeaaaa;
+     font-weight: normal;
+     font-style: oblique;
+ 	font-family: verdana;
+}
+
+div.cs6 {
+	font-size: 10pt;
+	color: #000000;
+     background-color: #eeaaaa;
+     font-weight: normal;
+     font-style: oblique;
+ 	font-family: arial;
+}
+
+</style>
